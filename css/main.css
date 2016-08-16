@@ -6,6 +6,18 @@ a {
 	text-decoration: none;
 }
 
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
 img {
 	max-width: 100%
 }
@@ -24,41 +36,24 @@ HEADING
 NAVIGATION 
 ***********/
 
-nav {
-	padding: 10px 0;
-	margin: 20px 0;
+#logo {
+	vertical-align: middle;
+	overflow: auto;
 }
 
-nav ul {
-	list-style: none;
-}
-
-nav a, nav a:visited, nav a.selected, nav a:hover {
-	color: black;
-}
-
-.NavBar {
-	list-style: none;
-	overflow: hidden;
-	margin-top: 0;
-	padding-top: 0;
-	position: relative;
-}
-
-.NavBar li {
-	float: right;
-}
-
-.NavBar li a {
+ul {
 	display: inline;
-	text-align: center;
-	padding: 14px 16px;
+	list-style: none;
 }
 
-.NavImg li {
-	margin-bottom: 0;
-	padding-bottom: 0;
-	position: relative;
+li {
+	display: inline;
+	padding: 20px;
+	margin-left: -5px;
+}
+
+.Nav {
+	float: right;
 }
 
 /**********
@@ -76,7 +71,7 @@ BODY
 
 
 .Connect, .Links {
-	float:right;
+	float: right;
 	position: relative;
 	text-align: center;
 	/*width: 46.5%;*/
@@ -90,21 +85,25 @@ BODY
 	display: inline;
 }
 
-.group : after {
+.SecondaryContainer {
 	content: "";
 	display: table;
 	clear: both;
 }
 
 /**********
-FOOTER 
+Footer
 ***********/
 
-footer {
+#foot {
 	font-size: 0.75em;
 	display: inline;
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
+	color: #ccc;
+}
+
+#foot a:visited {
 	color: #ccc;
 }
