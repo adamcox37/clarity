@@ -42,7 +42,7 @@ NAVIGATION
 }
 
 ul {
-	/*display: inline;*/
+	display: inline;
 	list-style: none;
 }
 
@@ -64,11 +64,38 @@ BODY
 	width: 100%;
 }
 
+.Textbox {
+	width: 53.5%;
+}
+
+
+
+.Connect, .Links {
+	float: right;
+	position: relative;
+	text-align: center;
+	/*width: 46.5%;*/
+	width: 40%;
+    border: 2px solid gray;
+    padding: 25px;
+    margin: 25px;
+}
+
+.Connect li, .Links li {
+	display: inline;
+}
+
+.SecondaryContainer {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 /**********
 Footer
 ***********/
 
-.main-footer {
+#foot {
 	font-size: 0.75em;
 	display: inline;
 	text-align: center;

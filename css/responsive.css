@@ -1,1 +1,46 @@
-//media queries
+/*************
+BASE STYLES
+*************/
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.main-footer {
+  margin-top: auto;
+ }
+
+/*************
+FLEXBOX
+*************/
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+/*************
+MEDIA QUERIES
+*************/
+
+@media (min-width: 769px) {
+
+	.container{
+		display: flex;
+
+	}
+
+}
+
+@media (min-width: 1025px) {
+
+	.container{
+		display: flex;
+
+	}
+
+}
