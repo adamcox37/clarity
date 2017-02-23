@@ -27,6 +27,25 @@ FLEXBOX
 MEDIA QUERIES
 *************/
 
+
+@media (max-width: 768px) {
+
+	.links {
+		display: flex;
+		flex-direction: column;
+		list-style-type: circle;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.employee {
+		display: flex;
+		flex-direction: row;
+		image
+	}
+}
+
+
 @media (min-width: 769px) {
 
 	.container{
@@ -38,5 +57,4 @@ MEDIA QUERIES
 	.col {
 		flex: 1;
 	}
-
 }
