@@ -6,15 +6,7 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-	color: black;
-}
-
-a:hover {
-	color: black;
-}
-
-a:active {
+a:visited, a:hover, a:active {
 	color: black;
 }
 
@@ -39,10 +31,19 @@ NAVIGATION
 #logo {
 	vertical-align: middle;
 	overflow: auto;
+	border-top: 20px black;
+	background-position: 0 0 100% 0;
+	background-repeat: no-repeat;
+	background-size: 20px 100%;
+	background-image: linear-gradient ()
+	padding-top: 5px;
 }
 
 ul {
+<<<<<<< HEAD
 	/*display: inline;*/
+=======
+>>>>>>> master
 	list-style: none;
 }
 
@@ -56,6 +57,7 @@ li {
 	float: right;
 }
 
+
 /**********
 BODY
 ***********/
@@ -64,6 +66,19 @@ BODY
 	width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+h3 {
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+.media, .links {
+	text-align: center;
+	margin-bottom: 20%;
+}
+
+>>>>>>> master
 /**********
 Footer
 ***********/
