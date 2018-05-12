@@ -60,12 +60,14 @@ img {
 .show {
 	display: block;
 }
+
 .grad {
     height: 25px;
     background: linear-gradient(#808080, #d9d9d9); 
 }
 
-.city {
+#banner img {
+	width: 100%;
 	padding-top: 5px;
 }
 
@@ -89,3 +91,29 @@ img {
 /**************************
 		Footer
 **************************/
+
+footer {
+	background-color: #e6e6e6;
+	padding: 20px;
+	text-align: center;
+}
+
+.footerLinks {
+	display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
