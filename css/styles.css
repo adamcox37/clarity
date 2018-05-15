@@ -19,7 +19,18 @@ img {
 		HEADER
 **************************/
 
+.mainHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 /*** Dropdown Menu Build ***/
+
+/* Hamburg bars */
+.menu-icon {
+	max-width: 25px;
+}
 
 /* Dropdown Button */
 .dropbtn {
@@ -62,7 +73,7 @@ img {
 }
 
 .headerLinks {
-	display: inline;
+	visibility: hidden;
 }
 
 .grad {
@@ -114,12 +125,20 @@ footer {
 		grid-area: head;
 	}
 
+	.headerImg {
+		grid-area: img;
+	}
+
 	.whyClarity {
 		grid-area: main;
 	}
 
 	.employee {
 		grid-area: secondary;
+	}
+
+	.empty {
+		grid-area: empty;
 	}
 
 	.connect {
@@ -141,11 +160,21 @@ footer {
 	  	grid-gap: 10px;
 	  	grid-template-areas:
 	  		"head head"
+	  		"img img"
 	  		"main social"
 	  		"main aside"
-	  		"secondary secondary"
+	  		"secondary empty"
 	  		"foot foot";
 	}
+	
+	.dropdown {
+		visibility: hidden;
+	}
+
+	.headerLinks {
+		visibility: visible;
+		display: inline;
+	}	
 
 	.connect, .usefulLinks {
 		border: solid black 2px;
