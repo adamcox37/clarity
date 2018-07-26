@@ -1,78 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
+  <meta charaset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Clarity</title>
+</head> 
 
-    <title>Clarity</title>
-
-
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-  </head>
-
-  <body>
-    <div>
+<body>
+  <div class="grid">
     <header>
-
-        <img src="img/ClarityLogo.png" alt="Clarity logo" id="logo">
-        <ul class="Nav">
-          <li><a href="index.html" class="selected">Why Clarity</a></li>
-          <li><a href="index.html">Benefits</a></li>
-          <li><a href="index.html">Diversity</a></li>
-        </ul>
-
+      <div class="mainHeader">
+        <img src="img/ClarityLogo.png" alt="Logo" class="logo">
+          <div class="dropdown nav">
+            <button onclick="myFunction()" class="dropbtn"><img src="img/menu-icon.png" alt="menu bars" class="menu-icon"></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Why Clarity</a>
+              <a href="#">Benefits</a>
+              <a href="#">Diversity</a>
+          </div>
+        <div class="headerLinks nav">
+          <a href="#">Clarity</a></li> | 
+          <a href="#">Benefits</a></li> | 
+          <a href="#">Diversity</a></li>
+        </div>
+      </div> 
     </header>
-    </div>
 
-    <div id="banner">
-      <img src="img/CityScape.png" alt="city scape">
-    </div> 
+    <div class="headerImg">
+      <div class="grad"></div>
 
-    <div class="container">
-
-      <div class="item-1 col">
-        <h1>Why Clarity?</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <h1>Our Employees</h1>
-          <img src="img/Employee1.png" alt="employees" class="employee">
-          <img src="img/Employee2.png" alt="employees" class="employee">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-      </div>
-
-      <div class="item-2 col">    
-        <h3>Connect with Clarity</h3>
-
-            <ul class="media">
-              <li><a href="index.html"><img src="img/Twitter.png" alt="Twitter"></a></li>   
-              <li><a href="index.html"><img src="img/LinkedIn.png" alt="LinkedIn"></a></li>              
-              <li><a href="index.html"><img src="img/Facebook.png" alt="Facebook"></a></li>               
-              <li><a href="index.html"><img src="img/Youtube.png" alt="YouTube"></a></li> 
-            </ul>
-
-
-        <h3>Useful Links</h3>
-            <ul class="links">
-              <li><a href="index.html">Your Career</a></li>
-              <li><a href="index.html">Work Life</a></li>
-              <li><a href="index.html">Locations</a></li>
-              <li><a href="index.html">Culture</a></li>
-            </ul>
+      <div id="banner">
+        <img src="img/CityScape.png" atl="City">
       </div>
     </div>
 
-    <div class= "main-footer">
-      <footer>
+    <div class="whyClarity">
+      <h2>Why Clarity?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
 
-          <ul>
-            <li><a href="index.html">Why Clarity</a></li>
-            <li><a href="index.html">Benefits</a></li>
-            <li><a href="index.html">Diversity</a></li>
-          </ul>
+    <div class="employee">
+      <h2>Our Employees</h2>
+      <div class="employeeImg">
+        <img src="img/Employee1.png" alt="Employees">
+        <img src="img/Employee2.png" alt="Employees">
+      </div>
+      <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
 
-      </footer>
-    </div>  
-  </body>
+    <div class="empty"></div>
+
+    <div class="connect">
+      <h2>Connect with Clarity</h2>
+      <div class="social">
+        <a href="#"><img src="img/Twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="img/LinkedIn.png" alt="LinkedIn"></a>
+        <a href="#"><img src="img/Facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="img/Youtube.png" alt="Youtube"></a>
+      </div>
+    </div>
+
+    <div class="usefulLinks">
+      <h2>Useful Links</h2>
+      <div class="links">
+        <ul>
+          <li><a href="#">> Your Career</a></li>
+          <li><a href="#">> Work Life</a></li>
+          <li><a href="#">> Locations</a></li>
+          <li><a href="#">> Our Culture</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerLinks">
+        <a href="#">Careers</a></li> | 
+        <a href="#">Benefits</a></li> | 
+        <a href="#">Privacy</a></li>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </div>
+</body>
 </html>
